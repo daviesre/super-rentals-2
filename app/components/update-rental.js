@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateRentalFomr: false,
+  updateRentalForm: false,
   actions: {
     updateRentalForm() {
       this.set('updateRentalForm', true);
