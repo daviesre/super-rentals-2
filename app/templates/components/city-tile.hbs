@@ -1,3 +1,5 @@
+<h1>{{fullLocation}}</h1>
+
 {{city.name}}'s Details
 
 Country: {{city.country}}
@@ -5,8 +7,8 @@ Country: {{city.country}}
 Rentals available in {{city.name}}:
 
 <ul>
-  {{#each city.rentals as |rental|}}
-    <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}}{{/link-to}}</li>
+  {{#each sortedRentals as |rental|}}
+    <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}}, ${{rental.cost}}{{/link-to}}</li>
   {{/each}}
 </ul>
 
