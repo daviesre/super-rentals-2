@@ -1,7 +1,6 @@
-# Super-rentals
+# Super Rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Allows the user view rentals of a particular city and edit and delete them as necessary.
 
 ## Prerequisites
 
